@@ -1,1 +1,31 @@
 /*  your css code here. If applicable */
+#animal-photos{
+	background-color: gray;
+	width: 700px;
+	height: 550px;
+	display: flex;
+	justify-content: center;
+	
+}
+#container-2{
+	background-color: black;
+	border-radius: 10px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	width: 83%;
+	height: 540px;
+	padding-bottom: 5px;
+	padding-left: 10px;
+	
+}
+#photo-heading{
+	color: white;
+}
+#pics>img{
+	width: 180px;
+	height: 150px;
+	border-radius: 10px;
+	padding-inline: 3px;
+}
